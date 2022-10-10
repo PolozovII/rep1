@@ -1,14 +1,1 @@
-def fun1( a ):
-    for x in a:
-        while x!=0:
-            y=x
-            x = int(x/10)
-            if (y % 10) == 7:
-                return 'boom'
-    return 'np 7'
-a = []
-while 1:
-    a.append(int(input()))
-    if a[-1] == 0:
-        break
-print(fun1(a))
+
